@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solder-portal</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js" defer ></script>
+</head>
+<body>
+    <div class="title-div">BATTALION FORCE MANAGEMENT</div>
+    <div class="line"></div>
+    <div class="div-create">
+        <input class="inp-create" type="text" id="FullName" placeholder="Full Name">
+        <input class="inp-create" type="text" id="Rank" placeholder="Rank">
+        <input class="inp-create" type="text" id="position" placeholder="position">
+        <input class="inp-create" type="text" id="platoon" placeholder="platoon">
+        <input class="inp-create-time" type="number" id="Time" placeholder="Mission Time {seconds}">
+        
+            <select class="inp-create" id="status" placeholder = "Active">
+                <option value="Active">Active</option>
+                <option value="Reserve">Reserve</option>
+                <option value="Retired">Retired</option>
+            </select>
+            <button class="btn-create" type="submit">add personal</button>
+        
+        
+    </div>
+    <div class="title-OVERVIEW-div">FORCES OVERVIEW</div>
+    <div class="line-title-OVERVIEW-div"></div>
+    <table class="div-table">
+        <tr>
+          <th ><button class="btn-order">Full Name ↓</button> </th>
+          <th>RAMK</th>
+          <th>POSITOION</th>
+          <th>PLATOON</th>
+          <th>STATUS</th>
+          <th>ACTIONS</th>          
+        </tr>
+        <!-- <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td class="btn-actions">
+            <button>A</button>
+            <button>B</button>
+            <button>C</button>
+        </td> -->
+        </tr>           
+      </table>    
+</body>
+</html>
